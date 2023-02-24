@@ -1,0 +1,13 @@
+h1 {
+    color: purple;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        color: blueviolet
+    }
+}
+
+.btn-primary {
+    background-color: palevioletred;
+}       
