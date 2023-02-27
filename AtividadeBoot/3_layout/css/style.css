@@ -11,3 +11,45 @@ h1 {
 .btn-primary {
     background-color: palevioletred;
 }       
+
+.container {
+    background-color: violet;
+}
+
+.container-fluid {
+    background-color: blueviolet;
+}
+
+.container-sm {
+    margin-bottom: 30px;
+    border: 2px solid pink
+}
+
+.container-md {
+    margin-bottom: 30px;
+    border: 2px solid blueviolet
+}
+
+.container-lg {
+    margin-bottom: 30px;
+    border: 2px solid purple
+}
+
+/* Grid */
+.container {
+    border: 5px dotted purple;
+    padding: 10px;
+}
+
+.row {
+    border: 5px solid palevioletred;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col {
+    border: 2px dashed rgb(49, 8, 49);
+    height: 100%;
+    margin: 0;
+}
