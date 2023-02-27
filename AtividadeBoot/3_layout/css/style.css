@@ -48,7 +48,11 @@ h1 {
     margin: 0;
 }
 
-.col {
+.col,
+.col-4, 
+.col-2,
+.col-1,
+.col-11 {
     border: 2px dashed rgb(49, 8, 49);
     height: 100%;
     margin: 0;
