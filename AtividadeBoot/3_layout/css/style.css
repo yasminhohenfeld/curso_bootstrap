@@ -39,6 +39,7 @@ h1 {
 .container {
     border: 5px dotted purple;
     padding: 10px;
+    margin-bottom: 50px;
 }
 
 .row {
@@ -52,8 +53,37 @@ h1 {
 .col-4, 
 .col-2,
 .col-1,
-.col-11 {
+.col-11,
+.col-6 {
     border: 2px dashed rgb(49, 8, 49);
     height: 100%;
-    margin: 0;
+    padding: 10px;
+
+}
+
+#largura-limitada {
+    max-width: 500px;
+}
+
+/* Alinhamento vertical */
+
+#vertical {
+    height: 250px;
+    border-color: crimson;
+}
+
+#vertical .row{
+    height: 100%;
+}
+
+.col-6 {
+    height: 50px;
+}
+
+#gutter.row {
+    height: 200px;
+}
+
+#gutter.col-6 {
+    margin: auto;
 }
